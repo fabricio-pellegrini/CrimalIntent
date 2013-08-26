@@ -1,5 +1,6 @@
 package com.pellegrini.crimalintent.model;
 
+import java.util.Date;
 import java.util.UUID;
 
 /**
@@ -9,22 +10,40 @@ public class Crime {
 
     private UUID mId;
     private String mTitle;
+    private Date mDate;
+    private boolean mSolved;
 
     public Crime() {
         //Generate unique identifier
         mId = UUID.randomUUID();
+        mDate = new Date();
     }
 
-    public UUID getmId() {
+    public UUID getId() {
         return mId;
     }
 
-    public String getmTitle() {
+    public String getTitle() {
         return mTitle;
     }
 
-    public void setmTitle(String mTitle) {
-        this.mTitle = mTitle;
+    public void setTitle(String pTitle) {
+        this.mTitle = pTitle;
     }
 
+    public Date getDate() {
+        return mDate;
+    }
+
+    public void setDate(Date pDate) {
+        mDate = pDate;
+    }
+
+    public boolean isSolved() {
+        return mSolved;
+    }
+
+    public void setSolved(boolean pSolved) {
+        mSolved = pSolved;
+    }
 }
