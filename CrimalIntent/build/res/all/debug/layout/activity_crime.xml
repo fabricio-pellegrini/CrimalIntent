@@ -1,0 +1,6 @@
+<FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragmentContainer"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+</FrameLayout><!-- From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/layout/activity_crime.xml -->
