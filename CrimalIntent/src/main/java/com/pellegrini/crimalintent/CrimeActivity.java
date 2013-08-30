@@ -1,27 +1,21 @@
 package com.pellegrini.crimalintent;
 
 import android.os.Bundle;
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
-import android.view.Menu;
 
-public class CrimeActivity extends FragmentActivity {
+import java.util.UUID;
+
+public class CrimeActivity extends SingleFragmentActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_crime);
+    protected Fragment createFragment() {
+        //return new CrimeFragment();
 
-        FragmentManager fm = getSupportFragmentManager();
+        UUID lUUID = (UUID) getIntent()
+                .getSerializableExtra(CrimeFragment.EXTRA_CRIME_ID);
 
-        Fragment fragment = fm.findFragmentById(R.id.fragmentContainer);
-
-        if(fragment == null) {
-            fragment = new CrimeFragment();
-            fm.beginTransaction().add(R.id.fragmentContainer, fragment).commit();
-        }
-
+        return CrimeFragment.newInstance(lUUID);
     }
 }

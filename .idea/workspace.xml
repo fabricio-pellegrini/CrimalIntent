@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="CrimeListFragment" />
+        <option name="name" value="Unnamed-0" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
   <component name="AndroidLayoutPreviewToolWindow">
     <option name="state">
       <GlobalState>
@@ -14,15 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d206f676-2e46-4c5d-8b67-fcd1d98d6a52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/res/layout-land/fragment_crime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/CrimeLab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/SingleFragmentActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/list_item_crime.xml" />
+      <change type="DELETED" beforePath="C:\Users\Fabricio\AndroidStudioProjects\CrimalIntentProject\CrimalIntent\build\res\all\debug\layout\activity_crime.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Fabricio\AndroidStudioProjects\CrimalIntentProject\CrimalIntent\src\main\res\layout\activity_crime.xml" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/activity_fragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeFragment.java" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/build/source/r/debug/com/pellegrini/crimalintent/R.java" afterPath="$PROJECT_DIR$/CrimalIntent/build/source/r/debug/com/pellegrini/crimalintent/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/build/res/all/debug/layout/fragment_crime.xml" afterPath="$PROJECT_DIR$/CrimalIntent/build/res/all/debug/layout/fragment_crime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/fragment_crime.xml" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/fragment_crime.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CrimalIntent/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/CrimalIntent/build/res/all/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CrimalIntent.iws" />
@@ -61,8 +78,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -78,8 +95,8 @@
         <option name="CONDITION_ENABLED" value="true" />
         <option name="CLASS_FILTERS_ENABLED" value="false" />
         <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
@@ -92,37 +109,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_crime.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/activity_crime.xml">
-          <provider editor-type-id="text-editor">
-            <state line="3" column="42" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+      <file leaf-file-name="CrimeLab.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/CrimeLab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="27" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_crime.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/fragment_crime.xml">
+      <file leaf-file-name="CrimeListFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="716" selection-end="716" vertical-scroll-proportion="-7.36" vertical-offset="139" max-vertical-offset="867">
-              <folding>
-                <element signature="e#397#424#0" expanded="true" />
-                <element signature="e#902#939#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="42" column="64" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.7107438" vertical-offset="132" max-vertical-offset="1377">
               <folding />
             </state>
           </provider>
@@ -131,22 +130,11 @@
       <file leaf-file-name="CrimeFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="30" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" vertical-offset="430" max-vertical-offset="1122">
+            <state line="47" column="17" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="731">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#1243:1684" expanded="false" />
-                <element signature="e#2078#2297#0" expanded="true" />
-                <element signature="e#2286#2287#0" expanded="true" />
+                <element signature="method#onCreateView#0;class#CrimeFragment#0" expanded="false" />
+                <element signature="class#1842:2283" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_crime.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/CrimalIntent/build/res/all/debug/layout/fragment_crime.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="69" selection-end="69" vertical-scroll-proportion="0.08133971" vertical-offset="0" max-vertical-offset="867">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -154,34 +142,48 @@
       <file leaf-file-name="CrimeActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Crime.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="918">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_crime.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout-land/fragment_crime.xml">
-          <provider editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="1020">
+            <state line="18" column="48" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="android-designer">
+        </entry>
+      </file>
+      <file leaf-file-name="list_item_crime.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/list_item_crime.xml">
+          <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="33" selection-start="527" selection-end="527" vertical-scroll-proportion="-4.76" vertical-offset="102" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="46" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="612">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrimeListActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="38" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="340">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleFragmentActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/SingleFragmentActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="23" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="578">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -240,12 +242,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/activity_crime.xml" />
-        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java" />
         <option value="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/fragment_crime.xml" />
-        <option value="$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java" />
         <option value="$PROJECT_DIR$/CrimalIntent/src/main/res/layout-land/fragment_crime.xml" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/CrimeLab.java" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/SingleFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListActivity.java" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java" />
         <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeFragment.java" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/res/layout/list_item_crime.xml" />
+        <option value="$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListFragment.java" />
       </list>
     </option>
   </component>
@@ -281,7 +289,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -359,6 +366,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CrimalIntent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CrimalIntentProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CrimalIntent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,6 +525,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -506,8 +544,8 @@
     <property name="FullScreen" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.SHOW" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -663,6 +701,11 @@
       <created>1377191456544</created>
       <updated>1377191456544</updated>
     </task>
+    <task id="LOCAL-00001" summary="Capítulo 8 - Creating User Interfaces with Layouts and Widgets">
+      <created>1377483014644</created>
+      <updated>1377483014644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -674,25 +717,25 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6847826" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4002954" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3988183" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.6912851" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3069498" sideWeight="0.6713092" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3091922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38075882" sideWeight="0.6011817" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2896936" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -755,142 +798,133 @@
     <MESSAGE value="Capítulo 8 - Creating User Interfaces with Layouts and Widgets" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/activity_crime.xml">
-      <provider editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/fragment_crime.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="323">
-          <folding>
-            <element signature="e#397#424#0" expanded="true" />
-            <element signature="e#902#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="62" selection-start="1048" selection-end="1048" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="1020">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1243:1684" expanded="false" />
-            <element signature="e#2078#2297#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="81" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="561">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="595">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/activity_crime.xml">
-      <provider editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/fragment_crime.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="716" selection-end="716" vertical-scroll-proportion="-7.36" vertical-offset="139" max-vertical-offset="867">
-          <folding>
-            <element signature="e#397#424#0" expanded="true" />
-            <element signature="e#902#939#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+        <state line="19" column="14" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout-land/fragment_crime.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state line="27" column="0" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="867">
           <folding />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/build/res/all/debug/layout/fragment_crime.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="867">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/build/source/r/debug/com/pellegrini/crimalintent/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="30" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.34634146" vertical-offset="246" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/SingleFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="23" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="46" selection-start="923" selection-end="923" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/Crime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="918">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="51" column="22" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0" vertical-offset="250" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/ListFragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="16" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-5.6" vertical-offset="353" max-vertical-offset="986">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="30" selection-start="1812" selection-end="1812" vertical-scroll-proportion="0.0" vertical-offset="430" max-vertical-offset="1122">
+        <state line="47" column="17" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="731">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#1243:1684" expanded="false" />
-            <element signature="e#2078#2297#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
+            <element signature="method#onCreateView#0;class#CrimeFragment#0" expanded="false" />
+            <element signature="class#1842:2283" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CrimalIntent/build/res/all/debug/layout/fragment_crime.xml">
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/model/CrimeLab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="69" selection-end="69" vertical-scroll-proportion="0.08133971" vertical-offset="0" max-vertical-offset="867">
+        <state line="25" column="27" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar!/android/support/v4/app/Fragment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="232" column="9" selection-start="9598" selection-end="9598" vertical-scroll-proportion="0.35353535" vertical-offset="3787" max-vertical-offset="4505">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/res/layout/list_item_crime.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="527" selection-end="527" vertical-scroll-proportion="-4.76" vertical-offset="102" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CrimalIntent/src/main/java/com/pellegrini/crimalintent/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="64" selection-start="1148" selection-end="1148" vertical-scroll-proportion="0.7107438" vertical-offset="132" max-vertical-offset="1377">
           <folding />
         </state>
       </provider>
