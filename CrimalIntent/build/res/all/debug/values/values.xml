@@ -4,6 +4,8 @@
     <!-- From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values/ids.xml -->
+    <item name="viewPager" type="id"/>
     <!-- From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values/strings.xml -->
     <string name="app_name">CriminalIntent</string>
     <string name="crime_details_label">Details</string>

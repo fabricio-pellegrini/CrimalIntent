@@ -51,4 +51,12 @@ public class Crime {
     public String toString() {
         return mTitle;
     }
+
+    @Override
+    public boolean equals(Object pCrime) {
+        Crime lCrime = (Crime) pCrime;
+        if(pCrime == null)
+            return false;
+        return mId.equals(lCrime.getId());
+    }
 }

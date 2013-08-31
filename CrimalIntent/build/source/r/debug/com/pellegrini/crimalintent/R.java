@@ -21,13 +21,16 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int crime_date=0x7f070002;
-        public static final int crime_list_item_dateTextView=0x7f070006;
-        public static final int crime_list_item_solvedCheckBox=0x7f070004;
-        public static final int crime_list_item_titleTextView=0x7f070005;
-        public static final int crime_solved=0x7f070003;
-        public static final int crime_title=0x7f070001;
-        public static final int fragmentContainer=0x7f070000;
+        public static final int crime_date=0x7f050003;
+        public static final int crime_list_item_dateTextView=0x7f050007;
+        public static final int crime_list_item_solvedCheckBox=0x7f050005;
+        public static final int crime_list_item_titleTextView=0x7f050006;
+        public static final int crime_solved=0x7f050004;
+        public static final int crime_title=0x7f050002;
+        public static final int fragmentContainer=0x7f050001;
+        /**  From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values/ids.xml 
+         */
+        public static final int viewPager=0x7f050000;
     }
     public static final class layout {
         public static final int activity_fragment=0x7f030000;
@@ -37,13 +40,13 @@ public final class R {
     public static final class string {
         /**  From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values/strings.xml 
          */
-        public static final int app_name=0x7f050000;
-        public static final int crime_details_label=0x7f050001;
-        public static final int crime_solved_label=0x7f050002;
-        public static final int crime_title_hint=0x7f050003;
-        public static final int crime_title_label=0x7f050004;
-        public static final int crimes_title=0x7f050005;
-        public static final int title_activity_crime=0x7f050006;
+        public static final int app_name=0x7f060000;
+        public static final int crime_details_label=0x7f060001;
+        public static final int crime_solved_label=0x7f060002;
+        public static final int crime_title_hint=0x7f060003;
+        public static final int crime_title_label=0x7f060004;
+        public static final int crimes_title=0x7f060005;
+        public static final int title_activity_crime=0x7f060006;
     }
     public static final class style {
         /**  From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values/styles.xml 
@@ -57,9 +60,9 @@ public final class R {
  From: file:/C:/Users/Fabricio/AndroidStudioProjects/CrimalIntentProject/CrimalIntent/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
